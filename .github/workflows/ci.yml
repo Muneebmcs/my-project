@@ -33,3 +33,4 @@ jobs:
         IMAGE_TAG: ${{ github.sha }}
       run: |
           docker build -t muneeb/versioning:$IMAGE_TAG -f Dockerfile .
+#####
